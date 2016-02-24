@@ -51,7 +51,14 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+<style type="text/css">
+	
 
+input.contact{ border: none !important;
+        border-bottom: 1px solid yellow !important;
+        padding: 25px !important; 
+        margin-bottom: 40px!important;}
+</style>
 	</head>
 	<body>
 	
@@ -65,10 +72,10 @@
 				<div class="col-lg-6 col-md-5 col-sm-5 text-center fh5co-link-wrap">
 					<ul data-offcanvass="yes">
 						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Service</a></li>
-						<li><a href="#">Locations</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#service">Service</a></li>
+						<li><a href="#location">Locations</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div> 
 				<!--<div class="col-lg-3 col-md-4 col-sm-4 text-right fh5co-link-wrap">
@@ -106,7 +113,7 @@
 		
 	
 
-		<div class="fh5co-project-style-2">
+		<div id="service" class="fh5co-project-style-2">
 			<div class="container">
 				<div class="row p-b">
 					<div class="col-md-6 col-md-offset-3 text-center">
@@ -179,7 +186,7 @@ We also use USSD technology to assist women to purchase the sanitary pads and di
 		</div>
 		
 
-		<div class="fh5co-counter-style-2" data-stellar-background-ratio="0.5">
+		<div id="location" class="fh5co-counter-style-2" data-stellar-background-ratio="0.5">
 		<center><h2 class="fh5co-heading wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Location</h2></center>
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:499px;width:1350px;'><div id='gmap_canvas' style='height:512px;width:1350px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.net/'>embedding google maps</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=675ae1120a5f9b42fb636aa75f0b5bcd90b1ef63'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-1.3074260753745228,36.73372980475459),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-1.3074260753745228,36.73372980475459)});infowindow = new google.maps.InfoWindow({content:'<strong>EsVendo</strong><br>Bishop Magua House, Ngong Road<br> Nairobi<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 			
@@ -295,7 +302,28 @@ We also use USSD technology to assist women to purchase the sanitary pads and di
 				</div>
 			</div>	
 		</div>
+				<div id="contact" class="fh5co-project-style-2">
+			<div class="container">
+				<div class="row p-b">
+					<div class="col-md-6 col-md-offset-3 text-center">
+						<h2 class="fh5co-heading wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Contact</h2>
+						<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">Feel free to contact us</p>
+						<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
+<form>
+	<input  class ='contact' type="text" placeholder="Name"></input>
+	<input class='contact' type="textfield" placeholder="What do you wanna ask?"></input>
+	<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s"><a href="mailto:email" class="btn btn-success btn-lg">Send</a></p>
+</form>
+
+						</p>
+					</div>
+				</div>
+			</div>
 			
+		</div>
+		</div>
+		</div>
+		</div>
 		<div class="fh5co-footer-style-3">
 			<div class="container">
 				<div class="row p-b">
@@ -314,7 +342,7 @@ We also use USSD technology to assist women to purchase the sanitary pads and di
 							<li><a href="#"><i class="icon icon-instagram"></i> Instagram</a></li>
 						</ul>
 					</div>
-					<div class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
+					<div id='about' class="col-md-3 col-sm-6 fh5co-footer-widget wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
 						<h3>About</h3>
 						<p>EsVendo is a social enterprise that subsidizes the cost of sanitary towels and diapers to people living in urban slums.  </p>
 						<p><a href="#" class="btn btn-success btn-sm btn-outline">Learn More</a></p>
